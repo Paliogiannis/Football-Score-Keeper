@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Team Column style. -->
+    <style name="TeamColumnStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- Team label style. -->
+    <style name="TeamLabelStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="fontFamily">sans-serif-medium</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#616161</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- Score text style. -->
+    <style name="ScoreTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="fontFamily">sans-serif-light</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">56sp</item>
+    </style>
+
+    <!-- Metrics text style. -->
+    <style name="MetricsTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">#616161</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- Track button style. -->
+    <style name="TrackButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="textAllCaps">true</item>
+    </style>
+</resources>
